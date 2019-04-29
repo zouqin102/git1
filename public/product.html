@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/jquery.pagination.css" />
+  <link rel="stylesheet" href="css/header.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 头部文件的引入 -->
+  <header id="header" class=""></header>
+  <main>
+    <!--------轮播-------->
+    <div id="index-banner">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide ">
+            <li class="add1"></li>
+          </div>
+          <div class="swiper-slide ">
+            <li class="add2"></li>
+          </div>
+        </div>
+        <!-- swiper  -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <menu class="product_menu">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li>&gt;</li>
+        <li><a href="product.html">产品</a></li>
+      </ul>
+    </menu>
+    <article class="cotain">
+      <hgroup class="pring">
+        <ul>
+          <li>
+            <dl>
+              <dt><i>目的地：</i></dt>
+              <dd>
+                <a href="/products/" class="current">所有</a>
+              </dd>
+              <dd id="country">
+                <!--国内-->
+                <ul class="select think country" style="display: none;">
+                  <p></p>
+                  <li class="select-list">
+                    <dl>
+                      <dt class="fuqi"><a href="#">上海市</a></dt>
+                      <dd><a href="#">上海市</a></dd>
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">江苏省</a></dt>
+                      <dd><a href="#">常州市</a></dd>
+                      <dd><a href="#">苏州市</a></dd>
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">浙江省</a></dt>
+                      <dd><a href="#">建德</a></dd>
+                      <dd><a href="#">杭州市</a></dd>
+                      <dd><a href="#">临安</a></dd>
+                      <dd><a href="#">安吉</a></dd>
+                      <dd><a href="#">宁波市</a></dd>
+                      <dd><a href="#">金华市</a></dd>
+                      <dd><a href="#">绍兴市</a></dd>
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">福建省</a></dt>
+                      <dd><a href="#">厦门市</a></dd>
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">江西省</a></dt>
+                      <dd><a href="#">上饶市</a></dd>
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">云南省</a></dt>
+                      <dd><a href="#">昆明市</a></dd>
+                    </dl>
+                  </li>
+                </ul>
+                <!--国内结束-->
+                <a href="#" class="guonei">国内</a>
+              </dd>
+              <dd id="abroad">
+                <!-- 国外 -->
+                <ul class="select think country" style="display: none;">
+                  <p></p>
+                  <li class="select-list">
+                    <dl>
+                      <dt class="fuqi"><a href="#">东南亚</a></dt>
+                      <dd><a href="#">马六甲</a></dd>
+                      <dd><a href="#">越南</a></dd>
+                      <dd><a href="#">岘港</a></dd>
+                      <dd><a href="#">芽庄</a></dd>
+                      <dd><a href="#">新加坡</a></dd>
+                      <dd><a href="#">波德申</a></dd>
+                      <dd><a href="#">马来西亚</a></dd>
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">日本</a></dt>
+                      <dd><a href="#">那霸</a></dd>
+                      <dd><a href="#">大阪</a></dd>
+                      <dd><a href="#">冲绳</a></dd>
+                      <dd><a href="#">东京</a></dd>
+                      <dd><a href="#">神户</a></dd>
+                      <dd><a href="#">长崎</a></dd>
+                      <dd><a href="#">福冈</a></dd>
+                      <dd><a href="#">熊本</a></dd>
+                      <dd><a href="#">鹿儿岛</a></dd>
+                    </dl>
+                    <dl class="fuqi01">
+                      <dt class="fuqi"><a href="#">欧洲</a></dt>
+                      <dd>西班牙</dd>
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">大洋洲(澳新)</a></dt>
+                      <dd><a href="#">新西兰</a></dd>
+                      <dd><a href="#">新西兰南北岛</a></dd>
+
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">中东非</a></dt>
+                      <dd><a href="#">土耳其</a></dd>
+                    </dl>
+                    <dl>
+                      <dt class="fuqi"><a href="#">港澳台</a></dt>
+                      <dd><a href="#">台湾</a></dd>
+                      <dd><a href="#">香港</a></dd>
+                    </dl>
+                  </li>
+                </ul>
+                <!--国外结束-->
+                <a href="#" class="guowai">出境</a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt><i>出发地：</i></dt>
+              <dd><a href="#">不限</a></dd>
+              <dd><a href="#">上海</a></dd>
+              <dd><a href="#">杭州</a></dd>
+              <dd><a href="#">温州</a></dd>
+              <dd><a href="#">宁波</a></dd>
+              <dd><a href="#">南京</a></dd>
+              <dd><a href="#">北京</a></dd>
+              <dd><a href="#">香港</a></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt><i>类型：</i> </dt>
+              <dd>
+                <a href="/products/" class="current">所有</a>
+              </dd>
+              <dd>
+                <a href="#">半自由行</a> </dd>
+              <dd>
+                <a href="#">当地玩乐</a> </dd>
+              <dd>
+                <a href="#">跟团游</a> </dd>
+              <dd>
+                <a href="#">自由行</a> </dd>
+              <dd>
+              </dd>
+              <dd>
+              </dd>
+              <dd>
+                <a href="#">门票</a> </dd>
+              <dd>
+                <a href="#">邮轮 </a> </dd>
+              <dd>
+              </dd>
+              <dd>
+              </dd>
+              <dd>
+              </dd>
+              <dd>
+              </dd>
+            </dl>
+          </li>
+          <li class="active">
+            <dl>
+              <dt><i>行程天数：</i></dt>
+              <dd><a class="current" href="">不限</a></dd>
+              <dd><a href="">1天</a></dd>
+              <dd><a href="">2天</a></dd>
+              <dd><a href="">3天</a></dd>
+              <dd><a href="">4天</a></dd>
+              <dd><a href="">5天</a></dd>
+              <dd><a href="">6天</a></dd>
+              <dd><a href="">7天</a></dd>
+              <dd><a href="">8天</a></dd>
+              <dd><a href="">9天</a></dd>
+              <dd><a href="">10天及以上</a></dd>
+            </dl>
+          </li>
+        </ul>
+      </hgroup>
+
+        <!-- 产品列表 -->
+      <article class="product">
+        
+      </article>
+    </article>
+     <!-- 分页器 -->
+    <div id="page-footer">
+          <div class="box">
+            <div id="pagination2" class="page fl"></div>
+          </div>  
+    </div>
+  </main>
+  <!-- 尾部文件的引入 -->
+
+  <footer id="footer" class=""></footer>
+  <!-- -------------------------------------------------------- -->
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/product.js"></script>
+  <script src="js/jquery.pagination.min.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+</body>
+
+</html>
