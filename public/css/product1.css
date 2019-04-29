@@ -1,0 +1,70 @@
+/*              面包屑                 */
+.product_menu {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0;
+    /*background-color:#e1e1e1;*/
+    -webkit-box-shadow: 0 2px 3px rgba(190, 190, 190, .55);
+    -moz-box-shadow: 0 2px 3px rgba(190, 190, 190, .55);
+    -ms-box-shadow: 0 2px 3px rgba(190, 190, 190, .55);
+    box-shadow: 0 2px 3px rgba(190, 190, 190, .55);
+}
+.product_menu ul {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.product_menu li {
+    float: left;
+    margin-right: 10px;
+}
+.container{
+    max-width:1150px;
+    height: 400px;
+    margin:0 auto;
+}
+.container>h2{
+    font-size: 16px;
+    color:#a05cb3;
+    font-weight: bold;
+    margin-top:10px;
+}
+.container .center{
+    width:100%;
+    text-align: center;
+    padding:40px 0 40px 0;
+}
+.container .center h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.container .center h4{
+    font-size: 16px;
+    margin:40px 0 40px 0;
+}
+.container .center h4 span{
+    font-size: 16px;
+}
+.container .center p{
+    font-size: 18px;
+    color:#a05cb3;
+    font-weight: bold;
+    padding:5px 0 5px 0;
+    line-height:40px;
+    height:40px;
+}
+.container .center p a{
+     display: inline-block;
+     width:155px;
+     height: 35px;
+     text-align: center;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     background:#a05cb3;
+     border-radius: 4px;
+     font-size: 16px;
+     font-weight: bold;
+     color: #fff;
+     margin-top:3px;
+}

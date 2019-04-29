@@ -1,0 +1,136 @@
+/* 顶部登陆注册行*/
+#app-header nav,#app-headereader header,#app-header article{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  min-width:1150px;
+}
+#app-header header{
+  background-color: #f4f4f4;
+  height: 35px;
+  line-height: 35px;
+  overflow: hidden;
+  border-bottom: #f0f0f0 solid 1px;
+  min-width: 1150px;
+}
+#app-header article div img{
+ max-width:305px;
+ margin-top:5px;
+}
+#app-header header dl{
+  width:1150px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#app-header header dl a:hover{color: #9d3ebd;}
+#app-header header{ 
+  font-size: 12px;
+}
+#app-header header dl dt span{
+  margin-right: 18px;
+}
+#app-header header dl dt a{
+  margin-right: 13px;
+  color:#9d3ebd;
+}
+#app-header header dd a{
+  margin-right: 15px;
+}
+#app-header>dl dt a{color: #9d3ebd;}
+
+#app-header article{
+  width:1150px;
+  padding: 10px 0;
+  height: 92px;
+  display: flex;
+  justify-content: space-around;
+}
+#app-header article .form input:first-child{
+  float: left;
+  width:400px; height: 32px;
+  padding-left:30px;
+  color: #ccc;
+  font-size:14px;
+  border:2px solid #9d3ebd;
+  background: url(../img/index/search.png) no-repeat 6px 8px;
+}
+#app-header .art-1{
+  width:540px;
+}
+#app-header article .form{
+  width: 540px;
+  display: inline-block;
+}
+#app-header article .form div{
+  width: 106px;
+  height: 36px;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  border: 0 none;
+  background-color: #9d3ebd;
+  cursor: pointer;
+  color: #fff;
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  line-height:36px;
+}
+#app-header article>div{
+  padding: 10px;
+}
+#app-header article div:last-child a{
+  font-size: 14px;
+  padding-right: 20px;
+  color:#555;
+    font: 14px/1.5 "\5FAE\8F6F\96C5\9ED1", "Arial", "Helvetica", "sans-serif";
+}
+#app-header article div:last-child a:hover{
+  color:#9d3ebd;
+}
+
+/* 导航栏 */
+#app-header nav{background-color: #672E7E;}
+#app-header nav>ul{
+  min-width:1150px;
+  display: flex;
+  text-align: center;
+}
+#app-header nav ul li a{
+ display: block;
+ width:164px;height:54px;
+ color:#fff;
+ line-height: 54px;
+ 
+}
+#app-header nav ul li a:hover{
+ background-color: #601479;
+ text-decoration: none;
+}
+#app-header nav ul li{
+  position: relative;
+}
+nav li em{
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -11px;
+}
+nav li em.hot {
+  background: url(../img/index/hot_xin.png)no-repeat;
+  right: 42px;
+}
+
+nav li em.sale {
+  background: url(../img/index/sale.png)no-repeat;
+  right: 40px;
+}
+li em.new {
+  right: 43px;
+  background: url(../img/index/r01.png)no-repeat;
+}
+.header-color{
+  background:#601479;
+}

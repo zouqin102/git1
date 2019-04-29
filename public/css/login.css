@@ -1,0 +1,194 @@
+
+
+/* app-login */
+#app-login main>div{
+    display: flex;
+    margin:10px 0 50px;
+    justify-content: space-between;
+}
+#app-login main{
+    width: 1150px;
+    margin-bottom:50px;
+    margin: 0 auto;
+}
+#app-login input{
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 5px;
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+}
+#app-login tr th,
+#app-login tr td{
+    font-size:14px;
+}
+#app-login tr td:last-child{
+    font-size: 12px;
+    
+}
+/* app-register main #reg  */
+#app-login main #login div:first-child{
+    text-align: left
+}
+#app-login main h1{
+    font-size: 16px;
+    color: #a05cbc;
+    font-weight: bold;
+}
+#app-login main #login{
+    margin:0 auto;
+    width: 750px;
+    height: 300px; 
+}
+#app-login main #login div:first-child{
+    height: 45px;
+    line-height: 45px;
+    
+}
+#app-login table{
+    border-collapse:collapse;
+    width:100%;
+}
+#app-login table tr th{
+    width:69px;
+    padding: 5px 4px;
+    text-align:left;
+}
+
+#app-login td{
+    width:675px;
+    display:table-cell;
+    padding: 5px 4px;
+    vertical-align:inherit;
+}
+#app-login table tr:nth-child(3) td>a{
+    background-color: #a05cbc;
+    margin-right: 10px;
+    width: 155px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#app-login table tr:last-child td a{
+    display: block;
+    width: 322px;
+    text-align: center;
+}
+#app-login td>div p{
+    border-bottom: #ddd dotted 1px;
+    height: 30px;width:307px;
+    line-height: 30px;
+    padding-left: 8px;
+}
+#app-login td .otherlogin{
+    float:left;
+    text-align: center;
+}
+#app-login td .otherlogin a{
+    width: 40px;
+    height: 40px;
+    margin: 0 30px;
+    display: inline-block;
+    /* overflow: hidden; */
+}
+#app-login td .otherlogin a:first-child{
+    background: url(../img/login/otherlogin.png) no-repeat ;
+}
+#app-login td .otherlogin a:nth-child(2){
+    background: url(../img/login/otherlogin.png) no-repeat -40px 0px;
+    
+}
+#app-login td .otherlogin a:last-child{
+    background: url(../img/login/otherlogin.png) no-repeat -80px 0;
+   
+}
+
+/*weixin */
+#app-login #weixin{
+    width: 300px;
+    padding-top:15px;
+}
+#app-login #weixin div:nth-child(2){
+    padding-top:10px;
+}
+#app-login #weixin{
+    color:#a05cbc;
+    font-weight: bolder;
+
+}
+/* register--footer */
+#register-footer>div{
+    text-align: center;
+    background: #E4E4E4;
+}
+#register-footer .foot6, .foot3>div{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+#register-footer span,a,.foot6 p{
+    margin-right:15px;
+    font-size: 12px;
+    color:#555;
+}
+#register-footer ul{
+    display: flex;
+    padding: 20px 0 5px;
+    width:1150px;
+    margin-bottom: 5px;
+}
+#register-footer .foot6 ul,#reg ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+#register-footer .foot6 div p:last-child{
+    padding: 20px 0 50px 0;  
+}
+#register-footer .foot6 div{
+    padding-top: 20px
+}
+
+
+#register-footer .foot3{
+    background-color: #672E7E;
+}
+#register-footer .foot3>div{
+    width:1150px;height: 163px;
+    padding-top:20px;margin-bottom: 1rem;
+}
+#register-footer .foot3_1 img{
+    display: block;margin-top:18%;
+}
+#register-footer .foot3_2{
+    width: 794px;height: 114px;
+    display: flex;
+    padding-left:40px; 
+    justify-content: space-around;
+}
+#register-footer .foot3_2 dl{
+    text-align: left;
+}
+#register-footer .foot3_2 dl dd a{
+    font-size:12px;
+    color:#fff;
+}
+#register-footer .foot3_2 dl dt{
+    font-size:16px;
+    color:#fff;
+    font-weight:normal;
+}
+#register-footer .foot3_3{width:194px;}
+#register-footer .foot3_4{width:102px;}
+

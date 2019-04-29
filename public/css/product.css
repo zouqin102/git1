@@ -1,0 +1,442 @@
+main {
+    overflow: hidden;
+    min-width: 1150px;
+    color: #666;
+    background: #f6f6f6;
+    font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1", "Arial", "Helvetica", "sans-serif";
+}
+
+.swiper-wrapper .add1 {
+    background: url(../img/product/59db10da9a9ae.jpg) center top no-repeat;
+    width: 100%;
+    height: 330px;
+}
+
+.swiper-wrapper .add2 {
+    background: url(../img/product/5a14d6ee5f985.jpg) center top no-repeat;
+    width: 100%;
+    height: 330px;
+}
+
+/*              面包屑                 */
+.product_menu {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0;
+    /*background-color:#e1e1e1;*/
+    -webkit-box-shadow: 0 2px 3px rgba(190, 190, 190, .55);
+    -moz-box-shadow: 0 2px 3px rgba(190, 190, 190, .55);
+    -ms-box-shadow: 0 2px 3px rgba(190, 190, 190, .55);
+    box-shadow: 0 2px 3px rgba(190, 190, 190, .55);
+}
+
+.product_menu ul {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.product_menu li {
+    float: left;
+    margin-right: 10px;
+}
+
+.cotain {
+    padding: 15px 0;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.product_menu li {
+    float: left;
+    margin-right: 10px;
+}
+
+/*          详情页导航           */
+.pring {
+    padding-bottom: 25px;
+}
+
+.pring li {
+    line-height: 35px;
+    height: 35px;
+    clear: both;
+    border-bottom: #ddd dotted 1px;
+}
+
+.pring li dl,
+.pring li dl dd {
+    float: left;
+}
+
+.pring li dl dt {
+    float: left;
+    padding-right: 10px;
+}
+
+.pring li dl dt i {
+    font-style: normal;
+    width: 65px;
+    display: inline-block;
+}
+
+.pring li dl dt a {
+    color: #fe6906;
+}
+
+.pring li dl dd ul li {
+    height: auto;
+}
+
+.pring li dl dd ul li dt.fuqi,
+.goods-searchbox dl dt.fuqi {
+    overflow: hidden;
+    display: block;
+    clear: both;
+    float: none;
+    font-size: 14px;
+}
+
+.pring li dl dd ul li dt.fuqi a,
+.goods-searchbox dl dt.fuqi a {
+    border-left: 5px solid #a05cbc;
+    padding-left: 10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    color: #a05cbc;
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.pring li dl dd ul li dd {
+    margin-right: 15px;
+    height: 25px;
+}
+
+.pring li dl dd ul li dl,
+.goods-searchbox .think dl {
+    height: auto;
+    width: 31%;
+    clear: none;
+    padding-right: 1.5%;
+}
+
+.pring li dl dd ul li dd a {
+    padding: 0;
+    float: left;
+}
+
+.pring li dl dd ul li dd a:hover {
+    color: #fe6906;
+}
+
+.pring li dl dd {
+    position: relative;
+    width: 80px;
+}
+
+.pring li dl dd a,
+.goods-searchbox .think dl dd a {
+    display: block;
+    padding-right: 15px;
+}
+
+.pring li dl dd a.current {
+    color: #fe6906;
+}
+
+a:hover {
+    color: #9d3ebd;
+}
+
+.think dl {
+    float: left;
+    width: 31%;
+    border-bottom: none;
+}
+
+.think {
+    width: 1131px;
+    top: 35px;
+    padding: 10px;
+    position: absolute;
+    z-index: 900;
+    background-color: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    min-height: 150px;
+    box-shadow: 0px 0px 3px #ccc;
+    -webkit-box-shadow: 0px 0px 3px #ccc;
+    -moz-box-shadow: 0px 0px 3px #ccc;
+}
+
+.country {
+    left: -116px;
+}
+
+.abroad {
+    left: -475px;
+}
+
+.abroad p {
+    left: 481px;
+}
+
+.country p {
+    left: 119px;
+}
+
+#country,
+.goods-searchbox #abroad {
+    position: relative;
+}
+
+.think dl dd a {
+    margin-right: 0;
+}
+
+#country li {
+    border-bottom: none;
+}
+
+#country:hover ul {
+    display: block !important;
+}
+
+#abroad:hover ul {
+    display: block !important;
+}
+
+#abroad:hover li {
+    border-bottom: none;
+}
+
+.think p {
+    background: url(../../public/img/product/san.png) no-repeat;
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    top: -10px;
+    z-index: 200;
+}
+
+.fuqi01 {
+    display: block;
+    height: 110px !important;
+}
+
+/*       中间产品详情      */
+/* 产品列表的样式 */
+.product .pong>ul>li {
+    display: flex;
+    height: 239px;
+    padding: 10px 0;
+}
+
+/* 列表左边的图片样式 */
+.product .pong ul li div:first-child a img {
+    width: 373px;
+    height: 239px;
+}
+
+/* 中间文字的样式 */
+.product .pong ul li div:nth-child(2) {
+    width: 599px;
+    padding: 0 10px;
+    background-color: #fff;
+    height: 239px;
+}
+
+.product .pong ul li div:nth-child(2) h3 {
+    margin: 0;
+}
+
+.product .pong ul li div:nth-child(2) h3 a {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top:11px;
+    display: inline-block;
+}
+ 
+
+.product .pong ul li div:nth-child(2)>span {
+    text-align: left;
+    line-height: 26px;
+    padding-top: 5px;
+    display: block;
+    height: 136px;
+    overflow: hidden;
+}
+
+.product .pong ul li div:nth-child(2) ul {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin-top: 23px;
+}
+
+/* 产品列表右边 抢购样式 */
+.product .pong ul li div:last-child {
+    width: 178px;
+    height: 239px;
+    background-color: #E9E9E9;
+    color: #fff;
+}
+
+.product .pong ul li div:last-child div:first-child {
+    height: 97px;
+    background-color: #FF8A00;
+    text-align: center;
+}
+
+.product .pong ul li div:last-child div:last-child {
+    margin: 0 35px;
+    padding: 50px 0 0 0;
+    height: 88px;
+    width: 108px;
+}
+
+.product .pong ul li div:last-child div:last-child a {
+    width: 103px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #FD8836;
+    -webkit-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
+    -moz-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
+    -ms-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
+    box-shadow: 1px 2px 3px rgba(178,178,178,.75);
+    color: #fff;
+    display: block;
+}
+
+.product .pong ul li div:last-child div:last-child a:hover {
+    text-decoration: none;
+}
+.product .out1{ width:20%; float: left;}
+.product .out2{ width:20%; float: left;}
+.product .out3{ width:20%; float: left;}
+.product .red{ 
+    color:#fe6906;
+    margin-left:17%;
+    width:23%;
+}
+.product .pong dl dt{
+        height: 45px;
+        line-height: 45px;
+        padding-top: 10px;
+        padding-left: 25px;
+}
+.product .pong  dl {
+    background-color: #FF8A00;
+    height: 97px;
+    color: #fff;
+}
+.product .pong  dl dt b {
+    font-size: 20px;
+}
+.product .pong dl dd {
+    text-decoration: line-through;
+    padding-left: 74px;
+}
+.pong .img-fath{
+    position: relative;
+}
+.product .pong i{
+    position: absolute;
+    left: 0;
+    top: -6px;
+    z-index: 300;
+    width: 71px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    padding-right: 7px;
+    background: url(../img/product/title_background.png) no-repeat;
+}
+/*    分页器   */ 
+#page-footer .box{
+    height:36px;
+}
+#page-footer .box #pagination2{
+    height:36px;
+}
+#page-footer button {
+    display: inline-block;
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-color: #28a4c9;
+    color: #fff;
+    background-color: #5bc0de;
+    margin: 20px 20px 0 0;
+}
+#page-footer ::after{
+   content:"";
+   display:inline-block;
+   clear: both;
+}
+
+#page-footer .page {
+    width: 1150px;
+    margin:0 auto;
+}
+
+#page-footer{
+    text-align: center;
+    padding: 0 0 16px 0;
+    font-size: 14px;
+    clear: both;
+    height: 36px;
+    overflow: hidden;
+}
+#page-footer .ui-pagination-container {
+    height: 36px;
+    line-height: 36px;
+}
+#page-footer .ui-pagination-container  .ui-pagination-page-item.active {
+    background: #8b3da5;
+    border-color: #8b3da5;
+    color: #fff;
+    cursor: default;
+}
+#page-footer .ui-pagination-container .ui-pagination-page-item:hover {
+    border-color: #8b3da5;
+    text-decoration: none;
+}
+#page-footer .ui-pagination-container .ui-pagination-page-item {
+    color: #555;
+    padding: 7.5px 13.5px;
+}
+#page-footer .ui-pagination-container .ui-pagination-page-item:hover {
+    color: #8b3da5;
+}
+#page-footer .ui-pagination-container .ui-pagination-page-item.active:hover{
+    color:#fff;
+    cursor:pointer
+}
+/* #page-footer a{
+    display: inline-block;
+    width: 34px;
+    height: 24px;
+    padding: 5px 0;
+    line-height: 24px;
+} */

@@ -1,0 +1,320 @@
+body .banner-nav{
+  position: relative;
+  max-width: 1150px;
+  min-width: 1150px;
+  margin:0 auto;
+  z-index: 2;
+}
+body  h2 a:hover{
+  color:#ff8a00 !important;
+}
+.swiper-container{
+  min-width: 1150px;;
+}
+.swiper-wrapper .add1{
+  background: url(../img/index/5a1e0c450cc40.jpg) center top no-repeat;
+  width: 100%;
+  height: 330px;
+}
+.swiper-wrapper .add2{
+  background: url(../img/index/5bd7f38640be2.jpg) center top no-repeat ;
+  width: 100%;
+  height: 330px;
+}
+.swiper-wrapper .add3{
+  background: url(../img/index/5bd7f38640be3.jpg) center top no-repeat;
+  width: 100%;
+  height: 330px;
+}
+.banner-add1{
+  position: absolute;
+  float: left;
+  left:0;
+  width: 280px;
+  height:330px;
+  padding:0 10px;
+  background-color:#fff;
+}
+.banner-add1 {
+  color: #666;
+  font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1", "Arial", "Helvetica", "sans-serif";
+}
+.banner-add1 dt {
+  font-size: 16px;
+  padding: 3px 0 3px 40px;
+  margin-top: 6px;
+  line-height: 23px;
+}
+.banner-add1 .icon01 {
+  background: url(../img/index/addr_icons.png) no-repeat 4px 3px;
+}
+.banner-add1 .icon02 {
+  background: url(../img/index/addr_icons.png) no-repeat 4px -26px;
+}
+.banner-add1 .icon03 {
+  background: url(../img/index/addr_icons.png) no-repeat 4px -55px;
+}
+.banner-add1 .icon04 {
+  background: url(../img/index/addr_icons.png) no-repeat 4px -83px;
+}
+.banner-add1 .icon05 {
+  background: url(../img/index/addr_icons.png) no-repeat 4px -113px;
+}
+.banner-add1 .icon06 {
+  background: url(../img/index/addr_icons.png) no-repeat 4px -146px;
+}
+.banner-add1 dd a.click-y {
+  color: #ff8a00;
+}
+.banner-add1 dd a{
+  font-size:12px;
+  padding: 0 3px;
+}
+.banner-add1 dd a:hover {
+  text-decoration: underline;
+  color: #555 !important;
+}
+.banner-add2{
+  position: absolute;
+  float: right;
+  right: 0;
+  width: 192px;
+  height:330px;
+  padding:0 5px;
+  background-color:#fff;
+}
+ .f1{
+   float:left;
+ }
+ .banner-add2 ul{
+   widows: 100%;
+   height:100%;
+ }
+ .banner-add2 li {
+  padding: 0;
+  margin: 13px 0 27px 0;
+}
+.banner-add2 li:after {
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+  content: ".";
+}
+.banner-add2  li p{
+  margin: 0 5px;
+}
+.banner-add2 li dl{
+  height: 59px;
+}
+.banner-add2 li dt {
+  color: #ff8a00;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 0;
+  display: block;
+}
+.banner-add2 li dd {
+  color: #666;
+  font-size:12px;
+  display: block;
+}
+/*----------- 主内容 --------- */
+.index-body{
+  background-color:#f6f6f6;
+  height: 100%;
+}
+ 
+.contain{
+  width: 1150px;
+  margin:15px auto;
+}
+
+.contain aside{
+  padding-bottom: 0px;
+}
+.contain aside h2, .contain section h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+}
+.contain aside h2 a, .contain section h2 a {
+  color: #ff8a00;
+  position: relative;
+}
+.contain aside h2 a:hover, .contain section h2 a:hover {
+  border-bottom: #ff8a00 solid 2px;
+}
+.contain aside h2 i, .contain section h2 i {
+  background: url(../img/index/jia_xin.png) no-repeat;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: -28px;
+  top: 19px;
+}
+.contain .f-cb{
+  padding: 15px 0;
+}
+.contain .f-cb li {
+  float: left;
+  margin-right: 15px;
+}
+.contain .f-cb :last-child{
+  margin:0;
+}
+.contain .f-cb li img {
+  width: 373px;
+  height: 239px;
+}
+.contain hgroup {
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.contain .hgr01 .onwidth {
+  width: 762px;
+ position: relative;
+ float: left;
+}
+.contain .hgr01 .onwidth img{
+  width:762px;
+  height:239px;
+}
+.haid dt i, .aifei dt i, .hgr01 dt i, .hgr02 dt i, .prong_u div i{
+  position: absolute;
+  left: 0;
+  top: -6px;
+  z-index: 300;
+  width: 71px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  padding-right: 7px;
+  background: url(../img/index/title_background.png) no-repeat;
+}
+.hgr01 dt em, .hgr02 dt em, .hgr03 dt em {
+  display: block;
+  width: 57px;
+  height: 58px;
+  background: url(../img/index/pic55.png);
+  position: absolute;
+  top: -1px;
+  right: -1px;
+}
+.hgr01 dd, .hgr02 dd {
+  height: 153px;
+  background-color: #fff;
+  padding: 0 5px;
+}
+.hgr01 dd h3, .hgr02 dd h3 {
+  height: 50px;
+  line-height: 25px;
+  padding-top: 5px;
+  text-align: left; 
+  font-weight: bold;
+}
+.index-body a{
+ color:#555;
+ font-weight: bold; 
+}
+.index-body a:hover{
+    color: #9d3ebd;
+}
+.bian {
+  height: 30px;
+  line-height: 30px;
+  padding-top: 10px;
+  color: #888;
+  font-size:12px;
+}
+.bian li {
+  float: left;
+  min-width: 105px;
+  
+}
+.bian li.day {
+  text-align: right;
+  float: right;
+}
+.bian li.send {
+  padding-left: 10px;
+
+}
+.money_01 {
+  float: left;
+  font-size:12px;
+  color: #888;
+}
+.money_02 {
+  float: right;
+  padding-top: 8px;
+  width: 108px;
+  font-size:12px;
+}
+.money_01 span {
+  color: #ff924c;
+}
+.money_01 strong {
+  font-size: 20px;
+  color: #ff924c;
+  font-weight: normal;
+}
+.money_01 strong {
+  font-size: 20px;
+  color: #ff924c;
+  font-weight: normal;
+}
+ 
+.contain .tuwidth  img , hgroup img {
+  height: 239px;
+  width:100%;
+}
+
+.contain .hgr01 .tuwidth {
+ position: relative;
+ width: 373px;
+ margin-right: 0px; 
+  float: right;
+}
+.hgr01 dl{
+  padding-bottom: 15px;
+    
+}
+
+.second dl, .third dl {
+  float: left;
+  width: 373px;
+  margin-right: 15px;
+}
+.hgr01 dl{
+  position: relative;
+  height:392px;
+  width:373px;
+  padding-bottom: 15px !important;
+}
+.fd{
+  float: left;
+  margin-right: 15px;
+}
+hgroup :last-child {
+  margin:0;
+}
+.hgr02 dl img{
+  height:648px;
+}
+.hgr02 dl{
+  position: relative;
+  width:373px;
+}
+.hgr03 {
+  margin-right: 0;
+  float: right;
+}
+.banner {
+  height: 123px;
+}
